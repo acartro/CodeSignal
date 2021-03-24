@@ -16,7 +16,5 @@ def makeArrayConsecutive2(statues):
     return max_statues-min_statues-n_statues
 
 # most voted
-
-
 def makeArrayConsecutive2(statues):
     return max(statues) - min(statues) - len(statues) + 1
